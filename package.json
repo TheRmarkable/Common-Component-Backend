@@ -1,0 +1,29 @@
+{
+  "name": "common-component-backend",
+  "version": "1.0.0",
+  "description": "Library for shared logic in eWallet backend controllers",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest --watch --coverage=false --silent=false --verbose --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRmarkable/Common-Component-Backend.git"
+  },
+  "author": "Berk Cengiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheRmarkable/Common-Component-Backend/issues"
+  },
+  "homepage": "https://github.com/TheRmarkable/Common-Component-Backend#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "path": "^0.12.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
